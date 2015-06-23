@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F98767EB1B399A340039FD55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98767EA1B399A340039FD55 /* AppDelegate.swift */; };
+		F98767ED1B399A340039FD55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98767EC1B399A340039FD55 /* ViewController.swift */; };
+		F98767F01B399A340039FD55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F98767EE1B399A340039FD55 /* Main.storyboard */; };
+		F98767F21B399A340039FD55 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F98767F11B399A340039FD55 /* Images.xcassets */; };
+		F98767F51B399A340039FD55 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F98767F31B399A340039FD55 /* LaunchScreen.xib */; };
+		F98768011B399A340039FD55 /* starmeup_qaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98768001B399A340039FD55 /* starmeup_qaTests.swift */; };
+		F987680D1B399DE90039FD55 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F987680B1B399DE90039FD55 /* Bolts.framework */; };
+		F987680E1B399DE90039FD55 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F987680C1B399DE90039FD55 /* Parse.framework */; };
+		F98768101B399E290039FD55 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F987680F1B399E290039FD55 /* AudioToolbox.framework */; };
+		F98768121B399E430039FD55 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98768111B399E430039FD55 /* CFNetwork.framework */; };
+		F98768141B399E4C0039FD55 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98768131B399E4C0039FD55 /* CoreGraphics.framework */; };
+		F98768161B399E570039FD55 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98768151B399E570039FD55 /* CoreLocation.framework */; };
+		F98768181B399E630039FD55 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98768171B399E630039FD55 /* MobileCoreServices.framework */; };
+		F987681A1B399E6B0039FD55 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98768191B399E6B0039FD55 /* QuartzCore.framework */; };
+		F987681C1B399E730039FD55 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F987681B1B399E730039FD55 /* Security.framework */; };
+		F987681E1B399E7C0039FD55 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F987681D1B399E7C0039FD55 /* StoreKit.framework */; };
+		F98768201B399E890039FD55 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F987681F1B399E890039FD55 /* SystemConfiguration.framework */; };
+		F98768221B399E9D0039FD55 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F98768211B399E9D0039FD55 /* libz.dylib */; };
+		F98768241B399EA90039FD55 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F98768231B399EA90039FD55 /* libsqlite3.dylib */; };
+		F98768261B39A05C0039FD55 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98768251B39A05C0039FD55 /* Accounts.framework */; };
+		F98768281B39A0620039FD55 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98768271B39A0620039FD55 /* Social.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F98767FB1B399A340039FD55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F98767DD1B399A340039FD55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F98767E41B399A340039FD55;
+			remoteInfo = "starmeup-qa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F98767E51B399A340039FD55 /* starmeup-qa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "starmeup-qa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F98767E91B399A340039FD55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F98767EA1B399A340039FD55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F98767EC1B399A340039FD55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F98767EF1B399A340039FD55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F98767F11B399A340039FD55 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F98767F41B399A340039FD55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F98767FA1B399A340039FD55 /* starmeup-qaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "starmeup-qaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F98767FF1B399A340039FD55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F98768001B399A340039FD55 /* starmeup_qaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starmeup_qaTests.swift; sourceTree = "<group>"; };
+		F987680B1B399DE90039FD55 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		F987680C1B399DE90039FD55 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		F987680F1B399E290039FD55 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F98768111B399E430039FD55 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F98768131B399E4C0039FD55 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F98768151B399E570039FD55 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F98768171B399E630039FD55 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F98768191B399E6B0039FD55 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F987681B1B399E730039FD55 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F987681D1B399E7C0039FD55 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F987681F1B399E890039FD55 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F98768211B399E9D0039FD55 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F98768231B399EA90039FD55 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F98768251B39A05C0039FD55 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		F98768271B39A0620039FD55 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F98767E21B399A340039FD55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98768281B39A0620039FD55 /* Social.framework in Frameworks */,
+				F98768261B39A05C0039FD55 /* Accounts.framework in Frameworks */,
+				F98768241B399EA90039FD55 /* libsqlite3.dylib in Frameworks */,
+				F98768221B399E9D0039FD55 /* libz.dylib in Frameworks */,
+				F98768201B399E890039FD55 /* SystemConfiguration.framework in Frameworks */,
+				F987681E1B399E7C0039FD55 /* StoreKit.framework in Frameworks */,
+				F987681C1B399E730039FD55 /* Security.framework in Frameworks */,
+				F987681A1B399E6B0039FD55 /* QuartzCore.framework in Frameworks */,
+				F98768181B399E630039FD55 /* MobileCoreServices.framework in Frameworks */,
+				F98768161B399E570039FD55 /* CoreLocation.framework in Frameworks */,
+				F98768141B399E4C0039FD55 /* CoreGraphics.framework in Frameworks */,
+				F98768121B399E430039FD55 /* CFNetwork.framework in Frameworks */,
+				F98768101B399E290039FD55 /* AudioToolbox.framework in Frameworks */,
+				F987680E1B399DE90039FD55 /* Parse.framework in Frameworks */,
+				F987680D1B399DE90039FD55 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98767F71B399A340039FD55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F98767DC1B399A340039FD55 = {
+			isa = PBXGroup;
+			children = (
+				F98768271B39A0620039FD55 /* Social.framework */,
+				F98768251B39A05C0039FD55 /* Accounts.framework */,
+				F98768231B399EA90039FD55 /* libsqlite3.dylib */,
+				F98768211B399E9D0039FD55 /* libz.dylib */,
+				F987681F1B399E890039FD55 /* SystemConfiguration.framework */,
+				F987681D1B399E7C0039FD55 /* StoreKit.framework */,
+				F987681B1B399E730039FD55 /* Security.framework */,
+				F98768191B399E6B0039FD55 /* QuartzCore.framework */,
+				F98768171B399E630039FD55 /* MobileCoreServices.framework */,
+				F98768151B399E570039FD55 /* CoreLocation.framework */,
+				F98768131B399E4C0039FD55 /* CoreGraphics.framework */,
+				F98768111B399E430039FD55 /* CFNetwork.framework */,
+				F987680F1B399E290039FD55 /* AudioToolbox.framework */,
+				F98767E71B399A340039FD55 /* starmeup-qa */,
+				F98767FD1B399A340039FD55 /* starmeup-qaTests */,
+				F98767E61B399A340039FD55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F98767E61B399A340039FD55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F98767E51B399A340039FD55 /* starmeup-qa.app */,
+				F98767FA1B399A340039FD55 /* starmeup-qaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F98767E71B399A340039FD55 /* starmeup-qa */ = {
+			isa = PBXGroup;
+			children = (
+				F987680A1B399D920039FD55 /* ParseFrameworks */,
+				F98767EA1B399A340039FD55 /* AppDelegate.swift */,
+				F98767EC1B399A340039FD55 /* ViewController.swift */,
+				F98767EE1B399A340039FD55 /* Main.storyboard */,
+				F98767F11B399A340039FD55 /* Images.xcassets */,
+				F98767F31B399A340039FD55 /* LaunchScreen.xib */,
+				F98767E81B399A340039FD55 /* Supporting Files */,
+			);
+			path = "starmeup-qa";
+			sourceTree = "<group>";
+		};
+		F98767E81B399A340039FD55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F98767E91B399A340039FD55 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F98767FD1B399A340039FD55 /* starmeup-qaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F98768001B399A340039FD55 /* starmeup_qaTests.swift */,
+				F98767FE1B399A340039FD55 /* Supporting Files */,
+			);
+			path = "starmeup-qaTests";
+			sourceTree = "<group>";
+		};
+		F98767FE1B399A340039FD55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F98767FF1B399A340039FD55 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F987680A1B399D920039FD55 /* ParseFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F987680B1B399DE90039FD55 /* Bolts.framework */,
+				F987680C1B399DE90039FD55 /* Parse.framework */,
+			);
+			name = ParseFrameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F98767E41B399A340039FD55 /* starmeup-qa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F98768041B399A340039FD55 /* Build configuration list for PBXNativeTarget "starmeup-qa" */;
+			buildPhases = (
+				F98767E11B399A340039FD55 /* Sources */,
+				F98767E21B399A340039FD55 /* Frameworks */,
+				F98767E31B399A340039FD55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "starmeup-qa";
+			productName = "starmeup-qa";
+			productReference = F98767E51B399A340039FD55 /* starmeup-qa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F98767F91B399A340039FD55 /* starmeup-qaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F98768071B399A340039FD55 /* Build configuration list for PBXNativeTarget "starmeup-qaTests" */;
+			buildPhases = (
+				F98767F61B399A340039FD55 /* Sources */,
+				F98767F71B399A340039FD55 /* Frameworks */,
+				F98767F81B399A340039FD55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F98767FC1B399A340039FD55 /* PBXTargetDependency */,
+			);
+			name = "starmeup-qaTests";
+			productName = "starmeup-qaTests";
+			productReference = F98767FA1B399A340039FD55 /* starmeup-qaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F98767DD1B399A340039FD55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Globant;
+				TargetAttributes = {
+					F98767E41B399A340039FD55 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					F98767F91B399A340039FD55 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = F98767E41B399A340039FD55;
+					};
+				};
+			};
+			buildConfigurationList = F98767E01B399A340039FD55 /* Build configuration list for PBXProject "starmeup-qa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F98767DC1B399A340039FD55;
+			productRefGroup = F98767E61B399A340039FD55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F98767E41B399A340039FD55 /* starmeup-qa */,
+				F98767F91B399A340039FD55 /* starmeup-qaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F98767E31B399A340039FD55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98767F01B399A340039FD55 /* Main.storyboard in Resources */,
+				F98767F51B399A340039FD55 /* LaunchScreen.xib in Resources */,
+				F98767F21B399A340039FD55 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98767F81B399A340039FD55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F98767E11B399A340039FD55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98767ED1B399A340039FD55 /* ViewController.swift in Sources */,
+				F98767EB1B399A340039FD55 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98767F61B399A340039FD55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98768011B399A340039FD55 /* starmeup_qaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F98767FC1B399A340039FD55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F98767E41B399A340039FD55 /* starmeup-qa */;
+			targetProxy = F98767FB1B399A340039FD55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F98767EE1B399A340039FD55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F98767EF1B399A340039FD55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F98767F31B399A340039FD55 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F98767F41B399A340039FD55 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F98768021B399A340039FD55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F98768031B399A340039FD55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F98768051B399A340039FD55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/starmeup-qa",
+				);
+				INFOPLIST_FILE = "starmeup-qa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F98768061B399A340039FD55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/starmeup-qa",
+				);
+				INFOPLIST_FILE = "starmeup-qa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F98768081B399A340039FD55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "starmeup-qaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/starmeup-qa.app/starmeup-qa";
+			};
+			name = Debug;
+		};
+		F98768091B399A340039FD55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "starmeup-qaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/starmeup-qa.app/starmeup-qa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F98767E01B399A340039FD55 /* Build configuration list for PBXProject "starmeup-qa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F98768021B399A340039FD55 /* Debug */,
+				F98768031B399A340039FD55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F98768041B399A340039FD55 /* Build configuration list for PBXNativeTarget "starmeup-qa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F98768051B399A340039FD55 /* Debug */,
+				F98768061B399A340039FD55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F98768071B399A340039FD55 /* Build configuration list for PBXNativeTarget "starmeup-qaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F98768081B399A340039FD55 /* Debug */,
+				F98768091B399A340039FD55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F98767DD1B399A340039FD55 /* Project object */;
+}
